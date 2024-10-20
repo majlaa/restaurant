@@ -1,0 +1,8 @@
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax as needed */
+    gap: 30px;
+    font-family: Geneva;
+    padding: 30px;
+    background-color: #FFF5EE;
+}

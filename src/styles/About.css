@@ -1,0 +1,62 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5EE;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.carousel {
+}
+
+.info {
+    align-items: center;
+    justify-items: center;
+    font-family: Geneva;
+    padding-top: 200px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.info p {
+    padding-top: 30px;
+}
+
+.location {
+    display: flex;
+    align-items: center; /* Vertically centers the icon and text */
+    justify-items: center;
+    margin-top: 100px;
+}
+
+.location p1 {
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .info p {
+        width: 90%;
+        padding-top: 15px;
+    }
+
+    .location {
+        margin-top: 5px;
+    }
+}

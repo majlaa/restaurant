@@ -1,0 +1,97 @@
+.home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Geneva, Calibri, sans-serif;
+}
+.headerContainer {
+  margin-left: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: Geneva;
+  color: #fff;
+}
+.headerContainer h1 {
+  font-size: 90px;
+  font-weight: bold;
+  color: #fff;
+}
+.headerContainer p {
+    margin: 10px auto;
+    font-weight: 100;
+    line-height: 0px;
+    font-size: 20px;
+}
+.headerContainer button {
+    width:200px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(66, 101, 101);
+    background: transparent;
+    cursor: pointer;
+    color:#fff;
+    position: relative;
+    overflow: hidden;
+}
+.headerContainer button:hover {
+  background-color: rgb(66, 101, 101);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+@media only screen and (max-width: 650px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .headerContainer h1,
+  .headerContainer p {
+  }
+  .headerContainer {
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  .headerContainer h1 {
+    font-size: 40px;
+    height: 30px;
+    color: white;
+  }
+  .headerContainer p {
+    font-size: 15px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    width: 100%;
+  }
+  .headerContainer button {
+    background-color: white;
+    background: transparent;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .headerContainer button:hover {
+    background-color: rgb(66, 101, 101);
+    color: #121619;
+  }
+}

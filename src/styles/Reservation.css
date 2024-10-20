@@ -1,0 +1,17 @@
+.reserve {
+    justify-content: center;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Geneva;
+}
+
+h2, p {
+  text-align: center;
+}
